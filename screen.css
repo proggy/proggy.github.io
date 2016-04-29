@@ -1,0 +1,33 @@
+body {
+    font-family: verdana,sans-serif;
+}
+
+.pubtitle {
+    font-style: italic;
+}
+
+.volume {
+    font-weight: bold;
+}
+
+.cvlist dd {
+    padding-bottom: .8em;
+}
+
+.note {
+    background-color: lightgreen;
+    padding: .4em;
+    width: 20em;
+    font-style: italic;
+}
+
+.born, .star {
+    color: gray;
+    font-style: italic;
+}
+
+.presauth:after {
+    /*text-decoration: underline;*/
+    /*font-style: italic;*/
+    content: "*";
+}
